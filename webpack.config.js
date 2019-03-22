@@ -10,7 +10,8 @@ module.exports = {
     path:path.resolve(__dirname,'dist')
   },
   devServer:{
-    prot:'3000'
+    contentBase: './dist',
+		port: 3000
   },
   module:{
     rules:[{
